@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b6bff"/>
+      <stop offset="100%" stop-color="#ff7a45"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" fill="#11141a"/>
+  <circle cx="160" cy="160" r="150" fill="none" stroke="url(#a)" stroke-width="2" stroke-dasharray="4 6" opacity="0.6"/>
+  <circle cx="160" cy="128" r="52" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <path d="M70 268c8-52 46-84 90-84s82 32 90 84" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <text x="160" y="300" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="rgba(255,255,255,0.4)">PHOTO PLACEHOLDER</text>
+</svg>
