@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===================== SEO / META ===================== -->
+  <!-- Modifie ces balises pour changer le titre et la description qui apparaissent
+       dans Google et lors du partage sur les réseaux sociaux. -->
+  <title>Cyril Piot — Game Developer &amp; Technical Artist</title>
+  <meta name="description" content="Cyril Piot is a game developer and technical artist specializing in Unreal Engine, Unity, gameplay systems, VFX, shaders and technical art. Available for freelance work.">
+  <meta name="author" content="Cyril Piot">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/">
+  <!-- ^ Remplace par l'URL finale de ton site GitHub Pages, ex: https://tonpseudo.github.io/portfolio/ -->
+
+  <!-- Open Graph / réseaux sociaux -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cyril Piot — Game Developer & Technical Artist">
+  <meta property="og:description" content="Portfolio of Cyril Piot: gameplay systems, VFX, shaders and technical art for Unreal Engine and Unity.">
+  <meta property="og:image" content="assets/images/og-image.svg">
+  <meta property="og:url" content="https://example.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cyril Piot — Game Developer & Technical Artist">
+  <meta name="twitter:description" content="Portfolio of Cyril Piot: gameplay systems, VFX, shaders and technical art for Unreal Engine and Unity.">
+  <meta name="twitter:image" content="assets/images/og-image.svg">
+
+  <!-- Favicon (SVG placeholder — remplace par ton propre logo si besoin) -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Fonts : préconnexion pour la performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bouton d'accessibilité : saut direct au contenu -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Cyril Piot — home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Cyril Piot</span>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#marketplace">Marketplace</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#creative">Creative</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <!-- Élément signature : "material preview" animé en fond, façon aperçu de shader -->
+      <div class="hero-mesh" aria-hidden="true">
+        <span class="mesh-blob mesh-blob--a"></span>
+        <span class="mesh-blob mesh-blob--b"></span>
+        <span class="mesh-grid"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">
+          <span class="status-dot" aria-hidden="true"></span>
+          Available for freelance work
+        </p>
+
+        <h1 class="hero-title reveal">
+          Cyril Piot
+        </h1>
+
+        <p class="hero-role reveal">Game Developer &amp; Technical Artist</p>
+
+        <p class="hero-lead reveal">
+          Game developer and technical artist specializing in Unreal Engine, Unity,
+          gameplay systems, VFX, shaders and technical art.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>A generalist by necessity, a specialist by curiosity.</h2>
+        </div>
+
+        <div class="about-content reveal">
+          <p>
+            I'm a game developer and technical artist who moves comfortably between
+            gameplay logic and visual systems. Most of my work sits at the intersection
+            of the two: building the tools, shaders and effects that let a gameplay idea
+            actually feel good to play.
+          </p>
+          <p>
+            My day-to-day covers Blueprint and C# gameplay programming, Niagara and VFX
+            work, shader and material authoring, and post-process tuning — along with the
+            less visible part of the job: keeping projects readable, maintainable and
+            performant as they grow.
+          </p>
+          <p>
+            I enjoy working on small, focused systems as much as full features: a wallride
+            mechanic, a boot sequence, a retro post-process pack. I'm still building my
+            experience, and I like projects where I can learn something new while
+            delivering something solid.
+          </p>
+
+          <div class="about-focus">
+            <span class="pill">Gameplay</span>
+            <span class="pill">Technical systems</span>
+            <span class="pill">VFX</span>
+            <span class="pill">Shaders</span>
+            <span class="pill">Optimization</span>
+            <span class="pill">Tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>What I build with.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Pour ajouter/retirer une compétence : ajoute ou supprime une <li> -->
+          <article class="skill-card reveal">
+            <h3 class="skill-card-title">Game Development</h3>
+            <ul class="skill-tags">
+              <li>Unreal Engine</li>
+              <li>Unity</li>
+              <li>Blueprint</li>
+              <li>C#</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3 class="skill-card-title">Technical Art</h3>
+            <ul class="skill-tags">
+              <li>Niagara</li>
+              <li>VFX</li>
+              <li>Shaders</li>
+              <li>Materials</li>
+              <li>Post Process</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3 class="skill-card-title">Other</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>Blender</li>
+              <li>Substance Designer</li>
+              <li>Lua</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work.</h2>
+        </div>
+
+        <!--
+          COMMENT AJOUTER / SUPPRIMER UN PROJET :
+          Copie un bloc <article class="project-card">...</article> complet, colle-le,
+          puis modifie l'image, le titre, la description et les technologies.
+          Remplace src="assets/projects/xxx.svg" par ton image (jpg/png/webp conseillé).
+        -->
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/projects/ps1-post-process.svg" alt="PS1 Post Process project thumbnail" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-body">
+              <h3>PS1 Post Process</h3>
+              <p>A retro PlayStation-era rendering pass: vertex jitter, affine texture warping and dithering rebuilt as a post-process material.</p>
+              <ul class="tech-tags">
+                <li>Unreal Engine</li><li>Materials</li><li>Post Process</li>
+              </ul>
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/projects/boot-sequence.svg" alt="Boot Sequence project thumbnail" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-body">
+              <h3>Boot Sequence</h3>
+              <p>A stylized console-style boot and loading sequence, combining UI animation with a custom shader-driven logo reveal.</p>
+              <ul class="tech-tags">
+                <li>Unreal Engine</li><li>Materials</li><li>UI</li><li>Animation</li>
+              </ul>
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/projects/wallride-system.svg" alt="Wallride System project thumbnail" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-body">
+              <h3>Wallride System</h3>
+              <p>A modular wallride and traversal system built in Blueprint, focused on responsive movement feel and easy level integration.</p>
+              <ul class="tech-tags">
+                <li>Unreal Engine</li><li>Blueprint</li>
+              </ul>
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/projects/niagara-vfx.svg" alt="Niagara VFX project thumbnail" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-body">
+              <h3>Niagara VFX</h3>
+              <p>A set of gameplay-ready particle effects — impacts, trails and ambient FX — built for performance and reuse across projects.</p>
+              <ul class="tech-tags">
+                <li>Unreal Engine</li><li>Niagara</li>
+              </ul>
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/projects/retro-post-process-pack.svg" alt="Retro Post Process Pack project thumbnail" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-body">
+              <h3>Retro Post Process Pack</h3>
+              <p>A collection of drop-in post-process materials — CRT, VHS and low-color looks — designed for quick art-direction changes.</p>
+              <ul class="tech-tags">
+                <li>Unreal Engine</li><li>Materials</li>
+              </ul>
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/projects/portal-system.svg" alt="Portal System project thumbnail" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-body">
+              <h3>Portal System</h3>
+              <p>A real-time portal system using render targets and scene capture, with matched physics traversal between linked portals.</p>
+              <ul class="tech-tags">
+                <li>Unreal Engine</li><li>Blueprint</li><li>Render Targets</li>
+              </ul>
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARKETPLACE ===================== -->
+    <section class="section section-alt" id="marketplace">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Marketplace</p>
+          <h2>Assets you can use in your own project.</h2>
+        </div>
+
+        <div class="marketplace-grid">
+          <article class="marketplace-card reveal">
+            <div class="marketplace-logo">
+              <img src="assets/images/marketplace-fab.svg" alt="FAB Marketplace logo placeholder" loading="lazy" width="240" height="120">
+            </div>
+            <h3>FAB Marketplace</h3>
+            <p>Materials, VFX and tool packs built for Unreal Engine, published on FAB.</p>
+            <!-- Remplace le href par le lien réel vers ta page FAB -->
+            <a href="https://www.fab.com/sellers/Narr" class="btn btn-outline" target="_blank" rel="noopener">Visit my FAB page</a>
+          </article>
+
+          <article class="marketplace-card reveal">
+            <div class="marketplace-logo">
+              <img src="assets/images/marketplace-unity.svg" alt="Unity Asset Store logo placeholder" loading="lazy" width="240" height="120">
+            </div>
+            <h3>Unity Asset Store</h3>
+            <p>Shaders, systems and utility assets published for the Unity community.</p>
+            <!-- Remplace le href par le lien réel vers ta page Unity Asset Store -->
+            <a href="#" class="btn btn-outline" target="_blank" rel="noopener">Visit my Asset Store page</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Services</p>
+          <h2>How I can help.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-index">01</span>
+            <h3>Gameplay Development</h3>
+            <p>Design and implementation of gameplay systems, from prototype to polish.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-index">02</span>
+            <h3>Technical Art</h3>
+            <p>Shaders, materials, VFX and visual effects tailored to your project's style.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-index">03</span>
+            <h3>Unreal / Unity Development</h3>
+            <p>Development of custom features and systems in Unreal Engine or Unity.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-index">04</span>
+            <h3>Optimization</h3>
+            <p>Profiling and optimizing existing projects to improve runtime performance.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-index">05</span>
+            <h3>Freelance</h3>
+            <p>Available for short missions or well-scoped, specific systems and features.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CREATIVE WORK ===================== -->
+    <section class="section section-alt section-creative" id="creative">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Creative Work</p>
+          <h2>Beyond development.</h2>
+        </div>
+
+        <div class="creative-grid">
+          <article class="creative-card reveal">
+            <h3>Writing</h3>
+            <p>Poetry, short stories, game writing and narrative.</p>
+          </article>
+          <article class="creative-card reveal">
+            <h3>Music</h3>
+            <p>Music composition and audio creation.</p>
+          </article>
+          <article class="creative-card reveal">
+            <h3>Voice / Narration</h3>
+            <p>Narration and voice-related work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Have a project in mind?<br>Let's work together.</h2>
+
+          <!--
+            Remplace chaque href="#" par tes vrais liens :
+            - mailto:ton.email@example.com
+            - lien LinkedIn
+            - lien Upwork
+            - lien Fiverr
+          -->
+          <div class="contact-links">
+            <a href="mailto:cyrilpiot2007@gmail.com" class="contact-link">
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-value">cyrilpiot2007@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/cyril-piot-4084953ab/?skipRedirect=true" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-value">linkedin.com/in/cyril-piot</span>
+            </a>
+            <a href="https://www.upwork.com/freelancers/~01e0b7550243882b75?mp_source=share" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-link-label">Upwork</span>
+              <span class="contact-link-value">upwork.com/freelancers/~01e0b7550243882b75</span>
+            </a>
+            <a href="https://fr.fiverr.com/s/WE99q27" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-link-label">Fiverr</span>
+              <span class="contact-link-value">fiverr.com/s/WE99q27</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">Cyril Piot</span>
+        <p>Game Developer &amp; Technical Artist</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Social and marketplace links">
+        <a href="mailto:cyrilpiot2007@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/cyril-piot-4084953ab/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.upwork.com/freelancers/~01e0b7550243882b75?mp_source=share" target="_blank" rel="noopener">Upwork</a>
+        <a href="https://fr.fiverr.com/s/WE99q27" target="_blank" rel="noopener">Fiverr</a>
+        <a href="https://www.fab.com/sellers/Narr" target="_blank" rel="noopener">FAB</a>
+        <a href="#" target="_blank" rel="noopener">Unity Asset Store</a>
+      </nav>
+
+      <p class="footer-copy">© 2026 Cyril Piot.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
